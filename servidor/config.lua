@@ -5,7 +5,7 @@ hotkeyAimbotEnabled = "yes"
 protectionLevel = 1
 killsToRedSkull = 3
 killsToBlackSkull = 6
-pzLocked = 60000
+pzLocked = 10000
 removeChargesFromRunes = "yes"
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
@@ -22,13 +22,13 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Welcome to The Forgotten Server!"
+motd = "Welcome to New Poke!"
 onePlayerOnlinePerAccount = "yes"
 allowClones = "no"
-serverName = "Forgotten"
+serverName = "New Poke"
 statusTimeout = 5000
 replaceKickOnLogin = "yes"
-maxPacketsPerSecond = 25
+maxPacketsPerSecond = 50
 
 -- Deaths
 -- NOTE: Leave deathLosePercent as -1 if you want to use the default
@@ -66,19 +66,19 @@ mysqlSock = ""
 
 -- Misc.
 allowChangeOutfit = "yes"
-freePremium = "no"
+freePremium = "yes"
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
-emoteSpells = "no"
+emoteSpells = "yes"
 classicEquipmentSlots = "no"
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-rateExp = 5
-rateSkill = 3
-rateLoot = 2
-rateMagic = 3
-rateSpawn = 1
+rateExp = 50
+rateSkill = 30
+rateLoot = 20
+rateMagic = 30
+rateSpawn = 10
 
 -- Monsters
 deSpawnRange = 2
@@ -97,7 +97,7 @@ defaultPriority = "high"
 startupDatabaseOptimization = "no"
 
 -- Status server information
-ownerName = ""
+ownerName = "New Poke"
 ownerEmail = ""
-url = "http://otland.net/"
-location = "Sweden"
+url = "https://github.com/new-poke/NewPoke-Servidor/"
+location = "Brazil"
